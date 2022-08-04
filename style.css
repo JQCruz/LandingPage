@@ -1,0 +1,175 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px 20px;
+}
+
+.header{
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.first-box{
+
+    color: white;
+    height: 400px;
+    justify-content: center;
+    gap: 60px;
+}
+
+.first-box-left{
+    width: 400px;
+}
+
+.footer, .header, .first-box{
+    background-color: #1F2937;
+}
+
+.header-right{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 80px;
+    gap: 20px;
+    display: flex;
+}
+
+.header-left{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+    margin-left: 80px;
+}
+
+.fbl-header{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header, .first-box{
+    display: flex;
+    align-items: center;
+}
+
+.third-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.third-box-content{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.third-box-quote{
+    margin-left: auto;
+}
+
+.first-box-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+}
+
+.second-box-header{
+    font-size: 36px;
+    color: black;
+    font-weight: bolder;
+    margin: 40px;
+}
+
+.second-box{
+    background-color: #f8f8f8;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 400px;
+}
+
+
+.first-box-left button{
+    margin-right: auto;
+}
+
+.first-box-right img{
+    height: 200px;
+    width: 400px;
+}
+.second-box-image-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.second-box-image-box div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+}
+
+.second-box-image-box div img{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: pink;
+}
+
+.fourth-box{
+    background-color:#3882F6;
+    display: flex;
+    color: white;
+    width: 900px;
+    height: 100px;
+    margin: 150px auto 150px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 25px;
+}
+
+.fourth-box-left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.fbl-top{
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: pink;
+    height: 20px;
+}
+
+.fourth-box-right button{
+    border-color: white;
+    border-style: solid;
+    padding: 10px 20px;
+}
+
+.fbl-content{
+    margin-bottom: 20px;
+}
